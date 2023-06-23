@@ -1,0 +1,102 @@
+.tela{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+    padding-left: 40px;
+    margin: auto;
+    margin-top: 70px;
+    color: rgb(255, 253, 253);
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/837/414/desktop-wallpaper-cute-purple-whale-pokemon-whale.jpg) ;
+    background-size: cover;
+    border: 1px solid;
+    box-shadow: 0px 0px 20px rgb(136, 128, 128);
+}
+
+.painel{
+   background-color: rgba(0, 0, 0, 0.781);
+   width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+}
+
+body{
+    text-align: center;
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/9c/61/ca/9c61ca4fe2af2b259f0c0176cc8728c4--wallpaper-for-ipod-pokemon-wallpaper.jpg);
+    background-size: cover;
+}   
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: garamond;
+}
+
+.proximo{
+    background-color: rgb(34, 33, 33);
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.proximo:hover{
+    background-color: rgb(148, 153, 153);
+}
+
+.anterior{
+    background-color: rgb(34, 33, 33);
+    color: rgb(252, 252, 252);
+    height: 20px;
+    width: 60px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.anterior:hover{
+    background-color: rgb(148, 153, 153);
+}
+
+
+.pesquisar{
+    background-color: rgb(34, 33, 33);
+    color: rgb(248, 248, 248);
+    height: 20px;
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.pesquisar:hover{
+    background-color: rgb(148, 153, 153);
+}
+
+
+.digite{
+    text-align: center;
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.digite:hover{
+    background-color: rgba(38, 39, 39, 0.849);
+}
+
+.id{
+    color: rgb(255, 255, 255);
+}
+
+.tipo{
+    color: rgb(255, 255, 255);
+}
+
+.habi{
+    color: rgb(255, 255, 255);
+}
+
+.poke{
+    color: aliceblue;
+}
+

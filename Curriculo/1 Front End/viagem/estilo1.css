@@ -1,0 +1,53 @@
+.rodape{
+    color: white;
+    padding-top: 30px;
+    border-top: 5px solid orange;
+    padding-bottom: 30px;
+}
+
+a{
+    color: white !important;
+}
+
+.img{
+    box-shadow: 2px 2px 30px black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-left: 210px;
+}
+
+.painel{
+    background-color: white;
+    width: 1400px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 0px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.img:hover{
+    filter: grayscale(100%);
+    transition: 2s;
+}
+   
+.texto2{
+    font-family:  Didot;
+    font-size:large
+}
+
+.preco{
+    font-size: 20px;
+}
+
+.inscricao{
+    margin-left: 50px;
+}
+
+.pagamento{
+    margin-left: 50px;
+}
+
+.documento{
+    margin-left: 50px;
+}

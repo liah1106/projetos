@@ -1,0 +1,46 @@
+/* essa é a parte da foto */
+.foto{
+    border: 3px solid rgba(240, 238, 237, 0.973);
+    border-radius: 100%;
+    width: 150px;
+}
+
+body{
+   background-image: linear-gradient(to left, rgb(37, 35, 35), rgba(197, 151, 113, 0.808), rgb(41, 40, 40));
+   text-align: center;
+}
+ul{
+    list-style: none;
+
+}
+
+.menu{
+    background-color: rgba(8, 7, 8, 0.856);
+    border-radius: 15px;
+}
+.menu ul li{
+    display:inline;
+}
+.menu ul li a{
+    color:rgb(237, 239, 241);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: rgb(146, 199, 181);
+    font-size: 18px;
+    border-radius: 10px;
+    transition-duration: 1s;
+}
+
+.tabela{
+    text-align: left;
+    background-color: rgb(53, 52, 50);
+    color:rgba(240, 248, 255, 0.658);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tabela tr td:hover{
+    font-size: 16px;
+    color:bisque;
+}

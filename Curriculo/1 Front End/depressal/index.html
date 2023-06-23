@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depressal</title>
+
+    <style>
+       body{
+        background-color: rgb(122, 37, 37);
+       }
+
+       #sim{
+        height: 20px;
+        width: 60px;
+        background-color:rgb(126, 121, 121);
+        color: rgb(0, 0, 0);
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 0px;
+        margin-left: -50px;
+       }
+
+       #nao{
+        position: absolute;
+        height: 20px;
+        width: 60px;
+        background-color:  rgb(126, 121, 121);
+        color: black;
+        border: 2px solid black;
+        border-radius: 0px;
+        margin-left: 10px;
+       }
+
+       #sim:hover, #nao:hover{
+        background-color: rgb(250, 250, 250);
+        transition: 1s;
+       }
+
+       .painel{
+        margin: auto;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        background-color: rgba(185, 182, 182, 0.904);
+        padding-top: 20px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 20px black;
+        font-family: garamond;
+        font-size: 20px;
+        animation: pulsar 5s alternate infinite;
+       }
+
+       @keyframes pulsar{
+        0%{}
+        
+        100%{  box-shadow: 2px 2px 20px rgb(255, 255, 255);}
+       }
+    </style>
+
+</head>
+<body>
+    
+  <div class="painel">
+     <h1><i>Feliz dia dos Namorados </h1>
+     <img width="200" src="https://static.vecteezy.com/system/resources/previews/018/978/069/original/cute-teddy-bear-holding-heart-cartoon-isolated-on-a-transparent-background-valentines-day-card-romantic-elements-hand-drawn-illustration-png.png" alt="">
+
+     <h2>Você quer a honra de me namorar?</h2>
+
+     <button id="sim">Sim!</button>
+     <button id="nao" onmouseover="fugir()">Não!</button>
+
+  </div>
+
+    <script>
+       function fugir(){
+        var botaoNao = document.getElementById("nao")
+
+        var larguraJanela = window.innerWidth;
+        var alturaJanela = window.innerHeight;
+
+        var maxX = larguraJanela - botaoNao.offsetWidth;
+        var maxY = alturaJanela - botaoNao.offsetHeight;
+
+        var aleatorioX = Math.floor(Math.random() * maxX);
+        var aleatorioY = Math.floor(Math.random() * maxY);
+
+        botaoNao.style.left = aleatorioX + "px";
+        botaoNao.style.top = aleatorioY + "px";
+       }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+.painel{
+    border: 3px solid rgb(46, 46, 46);
+    width: 600px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    font-size: 20px;
+}
+
+
+.titulo{
+    color:rgb(0, 0, 0);
+    font-family: garamond;
+}
+
+
+
+.botao{
+    border-radius: 5px;
+    background-color: rgb(33, 36, 36);
+    color:rgb(237, 234, 240);
+    text-align: center;
+    
+}
+
+.botao:hover{
+    background-color: rgb(79, 79, 83);
+}
+
+.tempo{
+    color:rgba(0, 0, 0, 0.925);
+    font-family:cursive
+}
+
+.cidade{
+    color:rgba(247, 238, 237, 0.904);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+ background-image: url(https://jornalrazao.com/storage/images/posts/94d89512a3eda194bb1c2152ea6dfcee.webp);
+ background-size: cover;
+
+}
+
+.imgTempo{
+    animation: voltar 4s  alternate infinite;
+}
+@keyframes voltar {
+    0%{
+        transform: translatex(100px);
+    }
+    100%{
+        transform:translateX(-100PX);
+    }
+}

@@ -1,0 +1,17 @@
+#gameCanvas{
+    border: 1px solid black;
+    width: 800px;
+    height: 600px;
+}
+
+.painel{
+   width: 800px;
+   height: 600px;
+   margin: 40px auto;
+   box-shadow: 2px 2px 20px black;
+   background-color: rgb(205, 206, 207);
+}
+
+body{
+    background-color: rgba(111, 115, 116, 0.884);
+}

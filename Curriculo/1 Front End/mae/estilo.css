@@ -1,0 +1,33 @@
+body{
+    background-image:url(https://images.unsplash.com/photo-1581102019793-b6f8748779a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80); 
+    background-size: cover;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.painel{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+    padding-left: 40px;
+    margin: auto;
+    margin-top: 70px;
+    color:rgb(151, 145, 145)
+}
+
+.botao{
+    background-color: rgb(161, 139, 114);
+    color: rgb(2, 2, 2);
+    border: none;
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+
+}
+
+.titulo{
+    font-family: garamond;
+    color:rgb(214, 209, 209);
+}

@@ -1,0 +1,49 @@
+/* essa é a parte da foto */
+.foto{
+    border: 1px solid rgba(219, 212, 212, 0.973);
+  
+
+}
+
+body{
+    background-color: black;
+    /* background-image: linear-gradient(to left, rgb(37, 34, 34), rgba(180, 127, 84, 0.808), rgb(29, 25, 25)); */
+   text-align: center;
+   color:aliceblue
+}
+ul{
+    list-style: none;
+
+}
+
+.menu{
+    background-color: rgba(56, 55, 55, 0.874);
+    border-radius: 10px;
+}
+.menu ul li{
+    display:inline;
+}
+.menu ul li a{
+    color:rgb(213, 25, 25);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 12px;
+    transition-duration: 1s;
+}
+
+.tabela{
+    text-align: left;
+    background-color: rgba(175, 166, 166, 0.775);
+    color:rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+.tabela tr td:hover{
+    font-size: 16px;
+    color:rgb(252, 249, 249);
+}

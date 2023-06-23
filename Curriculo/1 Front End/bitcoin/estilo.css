@@ -1,0 +1,59 @@
+.botao{
+    border: 2px solid;
+    border-radius: 10px;
+    color: rgb(245, 245, 245, 0.863);
+    background-color: rgb(59, 58, 58);
+}
+
+.bottao{
+    border: 2px solid;
+    border-radius: 5px;
+    color: rgba(245, 245, 245, 0.863);
+    background-color: rgb(59, 58, 58);
+}
+
+.botao:hover{
+    background-color: rgb(109, 109, 114);
+}
+
+.bottao:hover{
+    background-color: rgba(109, 109, 114);
+}
+
+.titulo{
+    font-family: garamond;
+    color:rgb(62, 85, 211);
+    font-size: 40px;
+}
+
+.painel{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.74);
+    border-radius: 10px;
+    padding-left: 40px;
+    margin: auto;
+    margin-top: 70px;
+    color:rgb(80, 77, 77);
+    text-align: center;
+    border: 2px solid;
+    box-shadow: 0px 0px 20px black;
+}
+
+body{
+    background-color: rgb(114, 112, 112);
+    background-image:url(https://images.fedsoc.org/?fit=scale-down&width=1920&image=https://fedsoc-cms-public.s3.amazonaws.com/Cryptocurrency-136695-pixahive.jpg); 
+    background-size: cover;
+}
+
+img{
+    animation: rotacionar 5s infinite alternate;
+}
+@keyframes rotacionar {
+    0%{
+    transform: rotate3d(0,1,0, 0deg);
+}
+    100%{
+        transform: rotate3d(0,1,0, 360deg);
+    }
+}
