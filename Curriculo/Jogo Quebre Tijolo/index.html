@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,13 +7,46 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
+   <h1 class="titulo">Jogo Quebra Tijolos</h1>
     <div class="painel">
-     <canvas id="gameCanvas" width="600" height="400"></canvas>
+
+    <canvas id="gameCanvas" width="600" height="400"> </canvas>
+
+    <p class="score" id="ponto">Score:0</p>
+
+    <div class="botoes">
+         <button class="Kaori" onclick="facil"> Fácil </button>
+         <button class="Kaori" onclick="medio"> Médio </button>
+         <button class="Kaori" onclick="dificil"> Dificil </button>
+         <button class="Kaori" onclick="impossivel"> Impossivel </button>
+    </div>
+</div>
+
+    <div class="gameover" id="gameover">
+
+    <div class="mensagemGameover">
+        <h1 class="titulo">Game Over</h1>
+
+      
+        <button onclick="reiniciar()">Clique para jogar Novamente</button>
+    </div>
+</div>
+
+<div class="vitoria" id="vitoria">
+    <div class="mensagemVitoria">
+        <img class="trofeu" src="https://static.vecteezy.com/system/resources/previews/019/023/677/original/gold-trophy-symbol-icon-png.png">
+        <br>
+        Parabéns, você ganhou!
+     <br>
+    <button onclick="reiniciar()">Clique para Jogar Novamente</button>
+
+    </div>
     </div>
 
+    <!-- <iframe src="teste.html" width="500" height="500"></iframe> -->
 
-     <h1>Jogo Quebra Tijolos</h1>
-
-   <script src="script.js"></script>
+    
+    
+           <script src="script.js"></script>                                                                                                                                                                                                                                                     
 </body>
-</html>        
+</html>

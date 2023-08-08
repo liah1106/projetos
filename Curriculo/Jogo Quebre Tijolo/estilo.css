@@ -1,17 +1,91 @@
 #gameCanvas{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     width: 800px;
     height: 600px;
+      
 }
-
 .painel{
-   width: 800px;
-   height: 600px;
-   margin: 40px auto;
-   box-shadow: 2px 2px 20px black;
-   background-color: rgb(0, 0, 0);
+    width: 800px;
+    height: 600px;
+    margin: 40px auto;  
+    background-color: rgba(255, 255, 255, 0.836);     
+    background-image: url(https://www.goldsystem.com.br/wp-content/uploads/2019/10/shutterstock_1303979953.jpg);
+    background-size: cover;
+    border: solid 1px white;                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+body {
+     background-color: rgb(9, 9, 10); 
+    
+}
+.titulo {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.gameover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 9999;
+    display: none; 
+      
+}
+.mensagemGameover{
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px; 
 }
 
-body{
-    background-color: rgba(111, 115, 116, 0.884);
+button{
+    background-color: rgb(40, 96, 148);
+    color: rgb(233, 232, 232);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 80px;
+    
+}
+.foto{
+    width: 350px;
+}
+.vitoria{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 9999;
+    display: none;  
+}
+.mensagemVitoria{
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(68, 97, 121);
+    font-size: 40px;
+    animation: piscar 4s alternate infinite;
+}
+@keyframes piscar{
+    0%{ color:rgb(20, 34, 163)}
+    100%{ columns: rgb(36, 94, 117);}
+}
+.trofeu {
+    width: 150px;
+    margin-left: 100px;
+}
+
+.Kaori{
+    border-radius: 5px;
+    color: rgb(255, 255, 255); 
+    border: solid rgb(250, 250, 250) 1px;
+
 }
