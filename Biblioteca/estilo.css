@@ -1,0 +1,48 @@
+.painel{
+   background-color: rgb(255, 255, 255);
+   width: 700px;
+   height: 662px;
+   margin: 40px auto; 
+   border-radius: 10px; 
+   text-align: center;
+   border: solid 1px rgb(66, 43, 21); 
+   box-shadow: 0px 0px 20px black;
+   background-image: url(https://static.vecteezy.com/system/resources/previews/001/194/710/non_2x/decoration-frame-png.png);
+   background-size:700px;
+}
+
+.botao{
+   color:rgb(0, 0, 0);
+   background-color:rgba(64, 25, 100, 0.521);
+   border-radius: 5px;
+   border: solid 1px rgb(0, 0, 0); 
+   padding: 3px;   
+}
+
+.botao:hover{
+    background-color: rgba(48, 26, 63, 0.63);
+}
+
+.foto{
+    height: 200px;
+    width: 200px;
+}
+
+.gerenciador{
+    font-family: garamond;  
+}
+
+.titulo{
+   font-family: garamond;
+   font-size: 20px;
+}
+
+.aut{
+    border: solid 1px rgb(66, 43, 21); 
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgba(150, 130, 168, 0.849);
+}
+
